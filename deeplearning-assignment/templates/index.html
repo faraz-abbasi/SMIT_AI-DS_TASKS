@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friend Recognition</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Face Recognition: Friend 1 vs Friend 2</h1>
+        
+        <div class="camera-box">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas" style="display:none;"></canvas>
+        </div>
+
+        <div class="controls">
+            <button onclick="capture()">Identify Friend</button>
+        </div>
+
+        <div id="result">
+            <h2>It looks like: <span id="personName" style="color:#007bff">...</span></h2>
+            <p>Confidence: <span id="confScore">0</span>%</p>
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
