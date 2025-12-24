@@ -1,7 +1,6 @@
 # Face Recognition Web Application (CNN + Flask)
 
-This project implements a Face Recognition system using **Convolutional Neural Networks (CNN)** and a **Flask-based web application**.  
-It was developed as part of SMIT coursework to demonstrate the practical use of **ANNs, CNNs, and Machine Learning deployment**.
+This project implements a Face Recognition system using **Convolutional Neural Networks (CNN)** and a **Flask-based web application**.  It was developed as part of SMIT coursework to demonstrate the practical use of **ANNs, CNNs, and Machine Learning deployment**.
 
 ---
 
