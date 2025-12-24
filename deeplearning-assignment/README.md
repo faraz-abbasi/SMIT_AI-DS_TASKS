@@ -54,6 +54,7 @@ A Flask web application is used to capture webcam images, send them to the backe
     │   └── app.js
     └── css/
         └── style.css
+...
 
 ---
 
